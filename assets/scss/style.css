@@ -1,0 +1,288 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#navbar {
+  background-color: white;
+  padding-top: 1%;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10%;
+}
+
+#navbar a:hover {
+  color: goldenrod;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#navbar .logo {
+  margin-top: 1%;
+}
+
+#navbar .home {
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+#navbar .home a p i {
+  margin-left: 3%;
+  margin-top: 6%;
+}
+
+#navbar .logo-img {
+  margin-left: 20%;
+}
+
+#navbar .logo-img a img {
+  width: 30%;
+}
+
+#navbar .menu {
+  margin-top: 1%;
+}
+
+#navbar .search {
+  margin-top: 1%;
+  margin-left: 10%;
+}
+
+#home {
+  padding-top: 5%;
+}
+
+#home .home-items h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+#home .home-items .home-btns {
+  margin-top: 12%;
+}
+
+#home .home-items .home-btns .btn1 {
+  border-color: red;
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+}
+
+#home .home-items .home-btns .btn2 {
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+#home .home-items .home-btns .btn2 i {
+  color: black;
+  margin-right: 2%;
+}
+
+#home .home-items .home-btns .btn2:hover {
+  color: red;
+  background-color: white;
+  border-color: white;
+}
+
+#home .home-items .home-btns .btn2:hover i {
+  color: red;
+}
+
+#home .home-items .home-curier .home-icons {
+  text-align: center;
+  margin-left: 3%;
+  margin-top: 40%;
+}
+
+#home .home-items .home-curier .home-icons i {
+  font-size: 30px;
+  color: black;
+}
+
+#home .home-items .home-curier .home-icons h3 {
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 600px) {
+  #home .home-items {
+    margin: 0%;
+  }
+}
+
+#about {
+  margin-top: 5%;
+}
+
+#about .about-items {
+  margin-left: 20%;
+}
+
+#about .about-items .about-text h3 {
+  font-weight: 700;
+}
+
+#about .about-items .about-text p {
+  margin-top: 10%;
+  font-weight: 200;
+}
+
+#about .about-items .about-reciepe {
+  margin-top: 10%;
+}
+
+#about .about-items .about-reciepe .reciepe .r-img img {
+  height: 150px;
+  width: 100%;
+}
+
+#about .about-items .about-reciepe .reciepe .r-img a {
+  color: red;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #about .about-items {
+    margin-left: 0%;
+  }
+  #about .about-img img {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #about .about-img img {
+    width: 400px;
+  }
+}
+
+#special {
+  margin-top: 5%;
+}
+
+#special .special-head {
+  margin-left: 50%;
+}
+
+#special .special-head h4 {
+  color: red;
+  font-weight: 100;
+  text-align: center;
+}
+
+#special .special-head h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+#special .special-text h2 {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+#special .special-text .special-menu {
+  margin-left: 10%;
+}
+
+#special .special-text .special-menu h3 {
+  color: red;
+}
+
+#special .special-text .special-menu h3 span {
+  color: black;
+}
+
+#special .special-text .special-menu p {
+  color: gray;
+  margin-top: 8%;
+}
+
+#special .special-text .special-menu a {
+  border-color: red;
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+}
+
+#special .sp-img {
+  padding-left: 15%;
+}
+
+#special .sp-img img {
+  width: 480px;
+  height: 530px;
+}
+
+#special .special-sec {
+  margin-top: 5%;
+}
+
+#special .special-sec .sp2-img img {
+  width: 480px;
+  height: 530px;
+}
+
+#special .special-sec .special-text-sec {
+  margin-left: 30%;
+}
+
+#special .special-sec .special-text-sec h2 {
+  margin-top: 10%;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+#special .special-sec .special-text-sec .special-menu-sec {
+  margin-left: 10%;
+}
+
+#special .special-sec .special-text-sec .special-menu-sec h3 {
+  color: red;
+}
+
+#special .special-sec .special-text-sec .special-menu-sec h3 span {
+  color: black;
+}
+
+#special .special-sec .special-text-sec .special-menu-sec p {
+  margin-top: 8%;
+  color: gray;
+}
+
+#special .special-sec .special-text-sec .special-menu-sec a {
+  border-color: red;
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+}
+
+#menu {
+  margin-top: 5%;
+}
+
+#menu .special-head {
+  margin-left: 50%;
+}
+
+#menu .special-head h4 {
+  color: red;
+  font-weight: 100;
+  text-align: center;
+}
+
+#menu .special-head h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+#menu .menu .dishes h3 {
+  font-family: 'Josefin Sans',sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

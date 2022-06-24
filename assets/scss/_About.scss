@@ -1,0 +1,49 @@
+#about {
+  margin-top: 5%;
+  .about-items {
+    margin-left: 20%;
+    .about-text {
+      h3 {
+        font-weight: 700;
+      }
+      p {
+        margin-top: 10%;
+        font-weight: 200;
+      }
+    }
+    .about-reciepe {
+      margin-top: 10%;
+      .reciepe {
+        .r-img {
+          img {
+            height: 150px;
+            width: 100%;
+          }
+          a {
+            color: red;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .about-items {
+      margin-left: 0%;
+    }
+    .about-img{
+        img{
+            width: 500px;
+        }
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    
+    .about-img{
+        img{
+            width: 400px;
+        }
+    }
+  }
+}

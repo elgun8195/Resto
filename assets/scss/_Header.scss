@@ -1,0 +1,50 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#navbar {
+  background-color: white;
+padding-top: 1%;
+  a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10%;
+  }
+  a:hover {
+    color: goldenrod;
+    transition: 0.5s;
+  }
+  .logo {
+    margin-top: 1%;
+
+  }
+  .home {
+    margin-top: 1%;
+    margin-left: 5%;
+    a {
+        p {
+          i {
+            margin-left: 3%;
+            margin-top: 6%;
+          }
+        }
+      }
+  }
+  .logo-img {
+    margin-left: 20%;
+    a {
+      img {
+        width: 30%;
+      }
+    }
+  }
+  .menu {
+    margin-top: 1%;
+  }
+  .search {
+    margin-top: 1%;
+
+    margin-left: 10%;
+  }
+}
