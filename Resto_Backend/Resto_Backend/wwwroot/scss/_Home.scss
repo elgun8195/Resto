@@ -1,0 +1,58 @@
+#home {
+  padding-top: 5%;
+
+  .home-items {
+    h1 {
+      font-size: 3rem;
+      font-weight: 100;
+      letter-spacing: 4px;
+    }
+    .home-btns {
+      margin-top: 12%;
+      .btn1 {
+        border-color: red;
+        color: white;
+        background-color: red;
+        border-radius: 20px;
+      }
+      .btn2 {
+        i {
+          color: black;
+          margin-right: 2%;
+        }
+        font-weight: 600;
+        color: black;
+        background-color: white;
+        border-color: white;
+      }
+      .btn2:hover {
+        i {
+          color: red;
+        }
+        color: red;
+        background-color: white;
+        border-color: white;
+      }
+    }
+
+    .home-curier {
+      .home-icons {
+        text-align: center;
+        margin-left: 3%;
+        margin-top: 40%;
+        i {
+          font-size: 30px;
+          color: black;
+        }
+        h3 {
+          font-weight: 100;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .home-items{
+        margin: 0%;
+    }
+  }
+}
