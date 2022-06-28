@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Resto_Backend.DAL;
 using Resto_Backend.Extensions;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 namespace Resto_Backend.Areas.AdminF.Controllers
 {
     [Area("AdminF")]
+    [Authorize(Roles ="Admin,SuperAdmin")]
     public class BreakfastController : Controller
     {
         private readonly AppDbContext _context;

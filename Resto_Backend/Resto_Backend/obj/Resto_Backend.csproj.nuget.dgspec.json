@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elgun\\Desktop\\Resto_Backend\\Resto_Backend\\Resto_Backend.csproj": {}
+    "C:\\Users\\Elgun\\Desktop\\Resto\\Resto_Backend\\Resto_Backend\\Resto_Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Elgun\\Desktop\\Resto_Backend\\Resto_Backend\\Resto_Backend.csproj": {
+    "C:\\Users\\Elgun\\Desktop\\Resto\\Resto_Backend\\Resto_Backend\\Resto_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elgun\\Desktop\\Resto_Backend\\Resto_Backend\\Resto_Backend.csproj",
+        "projectUniqueName": "C:\\Users\\Elgun\\Desktop\\Resto\\Resto_Backend\\Resto_Backend\\Resto_Backend.csproj",
         "projectName": "Resto_Backend",
-        "projectPath": "C:\\Users\\Elgun\\Desktop\\Resto_Backend\\Resto_Backend\\Resto_Backend.csproj",
+        "projectPath": "C:\\Users\\Elgun\\Desktop\\Resto\\Resto_Backend\\Resto_Backend\\Resto_Backend.csproj",
         "packagesPath": "C:\\Users\\Elgun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elgun\\Desktop\\Resto_Backend\\Resto_Backend\\obj\\",
+        "outputPath": "C:\\Users\\Elgun\\Desktop\\Resto\\Resto_Backend\\Resto_Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Elgun\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.26, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.26, )"
